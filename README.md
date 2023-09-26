@@ -1,5 +1,5 @@
 
-<a href='https://github.com/codeparameter/SalarCoin/blob/main/README.md#about-me'>navigate down</a>
+<a href='https://github.com/codeparameter/#about-me'>navigate down</a>
 
 SalarCoin whitepaper concepts:
 
