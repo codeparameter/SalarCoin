@@ -1,5 +1,5 @@
-from .block import Block
-from ..wallet.keyobject import KeyObject
+from src.node.blockchain.ledger.block import Block
+from src.node.wallet.keyobject import KeyObject
 
 
 class Ledger:

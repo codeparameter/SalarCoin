@@ -1,6 +1,7 @@
 import hashlib
 import json
 import random
+import string
 import time
 
 import ecdsa
@@ -34,6 +35,15 @@ def rem_rand_choice(itr):
 def unique_rand_choice(itr):
     assert len(itr) == len(set(itr)), 'initial iterable must have unique items'
     yield from rem_rand_choice(itr[:])
+
+
+def is_hex(s: str) -> bool:
+    return all(c in string.hexdigits for c in s)
+
+
+def checked_hex(key_hex: str, err='must enter a hexa decimal number') -> bytes:
+    assert is_hex(key_hex), err
+    return bytes.fromhex(key_hex)
 
 
 def sort_dict(d: dict, fn, reverse=False):

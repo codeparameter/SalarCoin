@@ -1,4 +1,4 @@
-from .node import Node
+from src.node.types.node import Node
 
 
 class Miner(Node):

@@ -1,12 +1,16 @@
-from .nodes.boot import Boot
-from .nodes.node import Node
+from src.node.wallet import Boot
+from src.node.wallet import Node
 
 
 class Mutable:
-    g_args = None
+    # var = default_val
+    pass
 
 
 # Immutables:
+
+# VAR = 'default_val'
+
 SECONDS_PER_CRAWL = 20
 
 

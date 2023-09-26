@@ -1,7 +1,7 @@
 import ecdsa
 
 from dependencies.tools import ripemd160
-from src.wallet.keyobject import key_from_string, verify
+from src.node.wallet import key_from_string, verify
 
 
 def DUP(stack):

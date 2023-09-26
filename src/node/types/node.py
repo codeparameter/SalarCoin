@@ -6,8 +6,8 @@ from dependencies.recursion import recursive, Continue
 from dependencies.tools import multi_thread_chain, nxt
 from src.helpers import log, asrt_not
 from src.globals import SECONDS_PER_CRAWL
-from .hub import Hub, NODES_PER_SERVER, CHOSEN_NODES, get_verified_query
-from .base import Base
+from src.node.wallet import Hub, NODES_PER_SERVER, CHOSEN_NODES, get_verified_query
+from src.node.base import Base
 from .boot import BOOTS
 
 

@@ -1,5 +1,5 @@
-from .hub import Hub, NODES_PER_SERVER
-from .base import Base
+from src.node.wallet import Hub, NODES_PER_SERVER
+from src.node.base import Base
 
 BOOTS = [
     Hub('98.231.89.198'),
@@ -49,7 +49,7 @@ class Boot(Base):
         except Exception:
             return b'your data was corrupted'
 
-    # static bootstrap nodes:
+    # static bootstrap node:
 
     @staticmethod
     def get_bootstrap_nodes():

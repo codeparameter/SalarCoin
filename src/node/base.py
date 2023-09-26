@@ -4,8 +4,8 @@ import json
 # noinspection PyProtectedMember
 from ecdsa import SECP256k1, SigningKey
 from dependencies.tools import fake_ip
-from src.wallet.wallet import Wallet
-from .hub import Hub
+from src.node.wallet import Wallet
+from src.node.wallet import Hub
 
 
 def neighbors_from_list(nodes: list):

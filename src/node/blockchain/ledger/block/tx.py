@@ -1,6 +1,6 @@
 import json
 
-from .metadata import Meta
+from src.node.blockchain.ledger.block.tx.metadata import Meta
 
 
 class Tx(Meta):
@@ -23,7 +23,7 @@ class Tx(Meta):
 
     def notif(self, nodes):
         # TODO
-        #   broadcast str(self) to connected nodes
+        #   broadcast str(self) to connected node
         pass
 
     @classmethod

@@ -5,10 +5,10 @@ from ecdsa import VerifyingKey
 from dependencies.ntools import fap, calculate_distance
 from dependencies.tools import sort_dict, multi_thread_chain
 from src.globals import ROUTES
-from src.wallet.keyobject import verify, key_from_string
+from src.node.wallet import verify, key_from_string
 
 BUCKETS = 16  # kademlia buckets amount
-MAX_NEIGHBORS = 1 + 2 * (BUCKETS - 1)  # 2 nodes per bucket except the first bucket has 1 node
+MAX_NEIGHBORS = 1 + 2 * (BUCKETS - 1)  # 2 node per bucket except the first bucket has 1 node
 NODES_PER_SERVER = 5  # choose a number suitable for chucking the response data
 CHOSEN_NODES = MAX_NEIGHBORS // NODES_PER_SERVER
 

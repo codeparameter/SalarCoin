@@ -115,10 +115,10 @@ class Node:
 
 class MerkleTree:
     def __init__(self, content: [str]):
-        nodes = [Node(None, None, i) for i in content]
-        if len(nodes) % 2 == 1:
-            nodes.append(nodes[-1].copy())
-        self.root = self.buildTree(nodes)
+        node = [Node(None, None, i) for i in content]
+        if len(node) % 2 == 1:
+            node.append(node[-1].copy())
+        self.root = self.buildTree(node)
 
     def getRoot(self):
         return self.root
