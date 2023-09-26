@@ -1,6 +1,6 @@
 import json
 
-from src.node.blockchain.ledger.block.tx.metadata import Meta
+from src.node.blockchain.ledger.ledger import Meta
 
 
 # mining reward & fee will go to miner account
