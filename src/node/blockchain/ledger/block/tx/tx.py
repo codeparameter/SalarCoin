@@ -1,6 +1,8 @@
 import json
 
-from src.node.blockchain.ledger.ledger import Meta
+from .meta import Meta
+from .inp import Inp
+from .out import Out
 
 
 # mining reward & fee will go to miner account
@@ -8,7 +10,7 @@ from src.node.blockchain.ledger.ledger import Meta
 
 class Tx(Meta):
 
-    def __init__(self, inps, outs, vin_size, vout_size, lock_time, **_):
+    def __init__(self, inps: [Inp], outs: [Out], vin_size, vout_size, lock_time, **_):
         super().__init__(vin_size, vout_size, lock_time)
         self.set(inps, outs)
 

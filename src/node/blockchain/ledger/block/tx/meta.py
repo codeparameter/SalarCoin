@@ -2,9 +2,10 @@ import hashlib
 import sys
 
 from dependencies.tools import dict_to_bytes
+from .base_tx import BaseTx
 
 
-class Meta:
+class Meta(BaseTx):
 
     def __init__(self, vin_size, vout_size, lock_time, ver=1):
         self.metadata = {
