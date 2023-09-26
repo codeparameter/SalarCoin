@@ -1,7 +1,8 @@
+# SalarCoin.Whitepaper
 
 <a href='#AboutMe'>navigate down</a>
+
 # Table.of.Contents
-SalarCoin whitepaper concepts:
 
 # 1.Nodes.Peering:
 
@@ -49,6 +50,6 @@ it can use the Kademlia algorithm to efficiently discover the closest nodes base
 
 references:
 
-<a>navigate top</a>
+<a href='#SalarCoinWhitepaper'>navigate top</a>
 
 <footer>margin top</footer>
