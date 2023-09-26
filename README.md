@@ -1,9 +1,9 @@
 
-<a href='https://github.com/codeparameter/#about-me'>navigate down</a>
-
+<a href='#about-me'>navigate down</a>
+# Table.of.Contents
 SalarCoin whitepaper concepts:
 
-1) Nodes peering:
+# 1.Nodes.Peering:
 
 the general steps and components involved in creating a basic blockchain node discovery system:
 
@@ -19,14 +19,16 @@ the general steps and components involved in creating a basic blockchain node di
 
 6. Network Crawling: Nodes can perform network crawling by randomly selecting peers from their list and requesting information about their peers. This helps in expanding the network view.
 
-** Note: for simplicity I handled crawling and discovery in one process as following instructor:
+<pre>
+Note: for simplicity I handled crawling and discovery together in one process, as following instructor:
+    
     When a node is crawling toward random neighbor nodes, 
-    it's identity would be threated as discovery message.
-    So if target node would add the origin node in its neighbors list if it has'nt before. 
+    it's identity would be treated as discovery message.
+    So if target node would add the origin node in its neighbors list if it hasn't before. 
     Then, for crawling response, it would send its neighbors to origin node.
-**
+</pre>
 
-7. Security: Implement security measures to prevent spam and malicious behavior, such as rate limiting, IP banning, and handshake procedures.
+2. Security: Implement security measures to prevent spam and malicious behavior, such as rate limiting, IP banning, and handshake procedures.
 
 
 2) Kademlia
@@ -42,7 +44,7 @@ In a blockchain, these Node IDs can be used as addresses for nodes or data.
 When a node needs to find a specific piece of data or locate
 another node (e.g., for transaction propagation or block validation),
 it can use the Kademlia algorithm to efficiently discover the closest nodes based on their Node IDs.
-<>
+
 # about.me
 references:
 <a>navigate top</a>
