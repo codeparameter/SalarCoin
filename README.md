@@ -1,5 +1,5 @@
 
-<a href='#aboutMe'>navigate down</a>
+<a href='https://github.com/codeparameter/SalarCoin/blob/main/README.md#about.me'>navigate down</a>
 
 SalarCoin whitepaper concepts:
 
@@ -43,7 +43,7 @@ When a node needs to find a specific piece of data or locate
 another node (e.g., for transaction propagation or block validation),
 it can use the Kademlia algorithm to efficiently discover the closest nodes based on their Node IDs.
 <>
-<h2 id='#aboutMe'>about me</h2>
+# about.me
 references:
 <a>navigate top</a>
 <footer>margin top</footer>
