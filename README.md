@@ -1,6 +1,6 @@
-# SalarCoin.Whitepaper
+# Salar.Coin.Whitepaper
 
-<a href='#AboutMe'>navigate down</a>
+<a href='#AboutMe'>navigate to bottom</a>
 
 # Table.of.Contents
 
@@ -9,6 +9,12 @@
 <a href=''></a>
 <a href=''></a>
 <a href=''></a>
+
+<a href='#SalarCoinWhitepaper'>^</a>
+<a href='#TableofContents'><</a>
+<a href='#TableofContents'>t</a>
+<a href='#2Kademlia'>></a>
+<a href='#AboutMe'>v</a>
 
 # 1.Nodes.Peering:
 
@@ -38,7 +44,7 @@ Note: for simplicity I handled crawling and discovery together in one process, a
 2. Security: Implement security measures to prevent spam and malicious behavior, such as rate limiting, IP banning, and handshake procedures.
 
 
-2) Kademlia
+# 2.Kademlia
 
 Ensuring that there is always a route between nodes without registering them
 to all bootstrap nodes can be achieved by implementing a routing algorithm.
@@ -61,8 +67,6 @@ print('this is just a test')
 
 # About.Me
 
-references:
+# references
 
-<a href='#SalarCoinWhitepaper'>navigate top</a>
-
-<footer>margin top</footer>
+<a href='#SalarCoinWhitepaper'>navigate to top</a>
