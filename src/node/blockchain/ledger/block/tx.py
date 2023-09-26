@@ -3,6 +3,9 @@ import json
 from src.node.blockchain.ledger.block.tx.metadata import Meta
 
 
+# mining reward & fee will go to miner account
+# to spend rewards and fees, you can use the block hash as tx input
+
 class Tx(Meta):
 
     def __init__(self, inps, outs, vin_size, vout_size, lock_time, **_):
