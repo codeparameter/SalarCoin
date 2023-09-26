@@ -46,6 +46,9 @@ another node (e.g., for transaction propagation or block validation),
 it can use the Kademlia algorithm to efficiently discover the closest nodes based on their Node IDs.
 
 # About.Me
+
 references:
+
 <a>navigate top</a>
+
 <footer>margin top</footer>
