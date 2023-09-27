@@ -7,12 +7,11 @@ from .base_tx import BaseTx
 
 class Meta(BaseTx):
 
-    def __init__(self, vin_size, vout_size, lock_time, ver=1):
+    def __init__(self, vin_size, vout_size, lock_time=0, ver=1):  # TODo : lock time
         self.metadata = {
             'ver': ver,
             'vin_size': vin_size,
             'vout_size': vout_size,
-            'lock_time': lock_time,
         }
         self.hash = b''
         self.body = {}

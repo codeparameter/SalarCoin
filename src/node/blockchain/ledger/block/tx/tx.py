@@ -10,8 +10,8 @@ from .out import Out
 
 class Tx(Meta):
 
-    def __init__(self, inps: [Inp], outs: [Out], vin_size, vout_size, lock_time, **_):
-        super().__init__(vin_size, vout_size, lock_time)
+    def __init__(self, inps: [Inp], outs: [Out], vin_size, vout_size, **_):  # TODo : lock time
+        super().__init__(vin_size, vout_size)
         self.set(inps, outs)
 
     @classmethod
