@@ -1,5 +1,12 @@
 # Salar.Coin.Whitepaper
 
+<strong>
+Note: navigation links works only on github
+<br>
+<br>
+</strong>
+<a href='https://github.com/codeparameter/SalarCoin'>GitHub</a>
+<br>
 <a href='#AboutMe'>navigate to bottom</a>
 
 # Table.of.Contents
